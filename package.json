@@ -1,0 +1,38 @@
+{
+  "name": "generator-jshint",
+  "version": "1.0.0",
+  "description": "Yeoman generator for JSHint configuration files",
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jimf/generator-jshint"
+  },
+  "scripts": {
+    "coveralls": "npm run coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- test/index.test.js",
+    "lint": "jshint .",
+    "test": "mocha --reporter=spec",
+    "validate": "npm run lint && npm test && npm run coveralls"
+  },
+  "keywords": [
+    "yeoman",
+    "generator",
+    "jshint",
+    "lint"
+  ],
+  "author": "Jim Fitzpatrick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimf/generator-jshint/issues"
+  },
+  "homepage": "https://github.com/jimf/generator-jshint",
+  "dependencies": {
+    "yeoman-generator": "^0.20.2"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.17",
+    "jshint": "^2.8.0",
+    "mocha": "^2.2.5"
+  }
+}
