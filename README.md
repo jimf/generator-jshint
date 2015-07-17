@@ -32,10 +32,10 @@ code will be running in. The process can be aborted at any time with ^C.
 
 MIT
 
-[build-badge]: https://img.shields.io/travis/jimf/hour-convert/master.svg
-[build-status]: https://travis-ci.org/jimf/hour-convert
-[coverage-badge]: https://img.shields.io/coveralls/jimf/hour-convert.svg
-[coverage-result]: https://coveralls.io/r/jimf/hour-convert
-[dep-badge]: https://img.shields.io/david/jimf/hour-convert.svg
-[dep-status]: https://david-dm.org/jimf/hour-convert
+[build-badge]: https://img.shields.io/travis/jimf/generator-jshint/master.svg
+[build-status]: https://travis-ci.org/jimf/generator-jshint
+[coverage-badge]: https://img.shields.io/coveralls/jimf/generator-jshint.svg
+[coverage-result]: https://coveralls.io/r/jimf/generator-jshint
+[dep-badge]: https://img.shields.io/david/jimf/generator-jshint.svg
+[dep-status]: https://david-dm.org/jimf/generator-jshint
 [Yeoman]: http://yeoman.io/
